@@ -1,0 +1,61 @@
+ body{
+
+    width: 100%;
+    margin: 0;
+    background-image: url("Background2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    .container {
+      text-align: center;
+      position: center;
+      top: 20%;
+      left: 50%;
+      
+      
+    }
+
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+   cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff; /* A splash of magic color! */
+  color: #fff;
+}
+
+.manga-card {
+   border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  
+}
+
+.manga-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.manga-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.manga-card p {
+  line-height: 1.5;
+  color: #333;
+}
